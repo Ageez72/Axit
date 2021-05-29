@@ -1,0 +1,527 @@
+/* Start My FrameWork */
+
+body {
+    font-family: 'open sans'
+}
+.clearfix {clear: both}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.scroll-to-top {
+    background-color: #333;
+    color: #FFF;
+    display: block;
+    padding: 3px 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    cursor: pointer;
+    display: none;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 7px 7px 0;
+    z-index: 444;
+    background: #ff8b38
+}
+
+.uppercase {text-transform: uppercase}
+.main-color {color: #ff8b38}
+.main-line:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #ff8b38;
+    margin: 20px 0
+}
+.main-line-center:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #ff8b38;
+    margin: 20px auto
+}
+/* End My FrameWork */
+
+/* Start Navbar */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-inverse {
+    background-color: #0b111b;
+    border-color: #0c1119;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.scrolled {
+    background: rgba(11, 17, 27, 0.8);
+}
+
+/* End Navbar */
+
+/* Start Header */
+.header {
+    background: url('../images/header/8.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: #FFF
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5)
+}
+.header .centering-vh {margin-top: 25vh}
+.header h1 {font-size: 40px;font-weight: bold}
+.header h1 span {font-weight: normal}
+.header .main-line:after {background-color: #fff}
+.header .lead {font-size: 25px;line-height: 1.1;margin-bottom: 0}
+.header .pp {color: #ababab;font-size: 16px}
+.header .btn-download {
+    padding: 8px 17px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38
+}
+.header form {
+    width: 360px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.header form h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #fafafa;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+.header form .form-control {
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #DDD;
+    width: 80%;
+    margin: 10px auto 30px;
+}
+.header form .btn {
+    padding: 15px;
+    background-color: #ff8b38;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: bold
+}
+/* End Header */
+
+/* Start Socials */
+.socials {
+    padding: 10px;
+    -webkit-box-shadow: -1px -3px 10px #000;
+    -moz-box-shadow: -1px -3px 10px #000;
+    -o-box-shadow: -1px -3px 10px #000;
+    box-shadow: -1px -3px 10px #000;
+}
+.socials h4 {font-weight: bold}
+.socials p {line-height: 1.4;color: #b1a0a0;}
+.socials i {
+    margin: 23px 15px;
+    cursor: pointer;
+    color: #CCC;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.socials .fa-facebook:hover {color: #3b5998}
+.socials .fa-twitter:hover {color: #1da1f2}
+.socials .fa-google-plus:hover {color: #ea4335}
+.socials .fa-pinterest:hover {color: #bd081c}
+.socials .fa-instagram:hover {color: #e1306c}
+.socials .fa-stumbleupon:hover {color: #eb4924}
+.socials .fa-rss:hover {color: #f26522}
+/* End Socials */
+
+/* Start Tabs Section */
+.tabs-section {
+    padding: 70px 0;
+    background-color: #f5f5f5
+}
+.tabs-section .switch-tab li {
+    background-color: #000;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+
+.tabs-section .switch-tab li:hover {
+    background-color: #ff8b38
+}
+.tabs-section .switch-tab .selected {
+    background-color: #ff8b38
+}
+.tabs-section .tabs-content h3 {
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.tabs-section .tabs-content p {
+    line-height: 1.78;
+    margin: 30px 0 15px;
+    color: #a9aaac
+}
+.tabs-section .tabs-content button {
+    background-color: #ff8b38;
+    color: #FFF
+}
+.tabs-section .tabs-content > div:not(.tab-one) {
+    display: none
+}
+
+.tabs-section .tabs-img img {
+    margin: auto
+}
+/* Start Tabs Section */
+
+/* Start sub List Section */
+.sub-list {
+    padding: 70px 0
+}
+.sub-list .sub-img {
+    -webkit-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    -moz-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    -o-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 400px;
+    margin-bottom: 40px
+}
+.sub-list h3 {margin-top: 0;font-weight: bold;font-size: 26px;}
+.sub-list .main-line:after {margin: 30px 0}
+.sub-list .sublist-disc {color: #a9aaac;margin-bottom: 35px}
+.sub-list .item .media {margin-top: 30px}
+.sub-list .item i {
+    color: #ff8b38;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%
+}
+/* End sub List Section */
+/* Start Standard Pictures Section */
+.standar-pictures {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f4f4f4
+}
+.standar-pictures h3 {margin-top: 35px;font-weight: bold;font-size: 26px;}
+.standar-pictures .main-line:after { background-color: #ff8b38; margin: 30px 0}
+.standar-pictures .standard-disc {color: #a9aaac;margin-bottom: 35px}
+.standar-pictures .standard-img {
+    -webkit-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    -moz-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    -o-box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    box-shadow: 10px 10px 23px #DDD, -10px -5px 23px #DDD;
+    border-radius: 5px;
+    width: 400px
+}
+/* End Standard Pictures Section */
+/* Start Awesome Section */
+.awesome {
+    padding: 70px 0
+}
+.awesome .awesome-head {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.awesome .awesome-desc {
+    margin-bottom: 30px;
+    color: #a9aaac
+}
+.awesome .item {margin-top: 30px}
+.awesome .item i {
+    color: #ff8b38;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.awesome .item h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.awesome .item p {
+    color: #a9aaac
+}
+/* End Awesome Section */
+/* Start Pricing Section */
+.pricing {
+    padding: 70px 0;
+    background-color: #f4f4f4
+}
+.pricing .pricing-head {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.pricing .pricing-desc {
+    margin-bottom: 30px;
+    color: #a9aaac
+}
+.pricing .price-box {
+    background-color: #FFF;
+}
+.pricing .price-box .plan-head {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin: 0;
+    font-weight: bold;
+    border-bottom: 1px solid #fff
+}
+.pricing .price-box .price-option {
+    background-color: #333;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ff8b38
+}
+.pricing .price-box .price-option .price {
+    color: #FFF;
+    padding: 10px 0;
+    font-size: 70px;
+    display: block;
+    font-weight: bold
+}
+.pricing .price-box .price-option .price-period {
+    color: #adadad;
+    font-weight: bold;
+    font-style: italic;
+}
+.pricing .price-box .price-option .usd {
+    font-size: 30px
+}
+.pricing .price-box .most-pop {
+    color: #fff;
+    background-color: #ff8b38;
+    padding: 5px 0 10px;
+    margin-bottom: 0;
+    font-weight: bold
+}
+.pricing .price-box .configuration li {
+    padding: 10px;
+    border-bottom: 1px solid #ece9e9a1;
+    color: #8c8c8c
+}
+.pricing .price-box .basic,
+.pricing .price-box .enterprise {
+    margin-top: 35px
+}
+/* End Pricing Section */
+/* Start Testimonials */
+.testimonails {
+    padding: 70px 0
+}
+.testimonails .testimonails-head {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.testimonails .testimonails-desc {
+    margin-bottom: 30px;
+    color: #a9aaac
+}
+.testimonails .client-say {
+    background-color: #F5F5F5;
+    color: #8e8f93;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 20px
+}
+.testimonails .client-say:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #f5f5f5 transparent transparent;
+    position: absolute;
+    left: 20px;
+    bottom: -30px;
+}
+.testimonails .media-left {
+    padding-right: 25px
+}
+.testimonails .media-left img {
+    border-radius: 50%
+}
+.testimonails .media-body {
+    text-align: left
+}
+.testimonails .media-heading {
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.testimonails .media-body p {
+    color: #bbaab3;   
+}
+/* End Testimonials */
+/* Start Stylish */
+.stylish {
+    background: url('../images/stylish.jpg') no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 390px;
+    position: relative;
+    color: #FFF
+}
+
+.stylish .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.58);
+    padding: 100px 0
+}
+.stylish .stylish-head {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0
+}
+.stylish .stylish-desc {
+    margin-bottom: 30px;
+    color: #b8b9bb
+}
+.stylish .stylish-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px
+}
+/* End Stylish */
+/* Start Contact Us */
+.contact-us {
+    padding: 70px 0
+}
+.contact-us .contact-head {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0
+}
+.contact-us .contact-desc {
+    margin-bottom: 30px;
+    color: #b8b9bb
+}
+.contact-us form input[type='text'],
+.contact-us form input[type='email'] {
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddddddbf;
+    border-radius: 0;
+}
+.contact-us form textarea {
+    height: 158px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddddddbf;
+    border-radius: 0;
+}
+.contact-us .contact-btn {
+    padding: 10px 20px;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+/* End Contact Us */
+/* Start Footer */
+footer {
+    background-color: #000;
+    color: #EEE;
+    padding: 20px
+}
+/* End Footer */
+
+@media(max-width: 991px) {
+    .header h1,
+    .header .lead,
+    .header .pp{
+        text-align: center
+    }
+    .header h1 {
+     margin-top: 10px   
+    }
+    .header .btn-download{margin: 20px auto;display: block}
+    .header .main-line:after {
+        margin: 10px auto;
+        display: block
+    }
+    .header .centering-vh{
+        margin-top: 50px
+    }
+    .header .center-block {width: 100%}
+    .socials {text-align: center}
+    .tabs-section .tabs-content h3 {margin-top: 25px}
+    .tabs-section {text-align: center}
+    .tabs-section .tabs-content button {margin: auto;display: block;margin-bottom: 30px}
+    .sub-list h3 {text-align: center}
+    .sub-list .main-line:after {margin: 30px auto}
+    .sub-list .sublist-disc {text-align: center}
+    .standar-pictures h3 {text-align: center}
+    .standar-pictures .main-line:after {margin: 30px auto}
+    .standar-pictures .standard-disc {text-align: center}
+    .awesome {margin: 0 0 -10px 0}
+    .awesome .item {margin-bottom: 45px}
+    .pricing .price-box.cen {margin-top: 35px}
+    .testimonails {padding: 70px 0 58px}
+    .testimonails .testi-item {margin-bottom: 40px}
+}
+
+@media (max-width: 360px) {
+
+    .stylish {min-height: 440px;}
+}
+
+@media (max-width: 566px) {
+    .header .xscreen {
+        display: none;
+    }
+    .header .centering-vh{
+        margin-top: 25vh
+    }
+    
+}
